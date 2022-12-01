@@ -2,6 +2,12 @@ body {
     background-color: #EAE9E9;
 }
 
+@media screen and (max-width: 1000px) {
+    body {
+        background-color:rgb(196, 232, 255) ;
+    }
+}
+
 .central{
     width: 600px;
     height: 400px;
