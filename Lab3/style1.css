@@ -1,0 +1,23 @@
+body {
+    background-color: #EAE9E9;
+}
+
+div input {
+    background-color: rgb(173, 197, 248);
+}
+
+.central{
+    background-color: rgb(178, 178, 255);
+    width: 600px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.float {
+    float: left;
+}
+
+.align {
+    text-align: right;
+}
