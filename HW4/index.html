@@ -13,12 +13,17 @@
         <script>
             
             var random = Math.floor((Math.random()*10)+1);
+            var guess = window.prompt("Please enter a number: ");
 
-            while (window.prompt("Please enter a number: ")!=random) {
-                window.prompt("Please enter a number: ");
+            while (guess!=random) {
+                guess = window.prompt("Please enter a number: ");
             }
             
+            document.writeln("<h1>Correct! The number is " + random);
+
         </script>
+
+        
 
     </body>
 
